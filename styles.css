@@ -250,6 +250,19 @@ img { max-width: 100%; display: block; }
   background: var(--surface-hover);
 }
 
+.btn-cv {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid rgba(0, 206, 201, 0.35);
+  gap: 8px;
+}
+
+.btn-cv:hover {
+  background: rgba(0, 206, 201, 0.08);
+  border-color: var(--accent-2);
+  box-shadow: 0 4px 20px rgba(0, 206, 201, 0.15);
+}
+
 .btn-large {
   padding: 16px 36px;
   font-size: 1rem;
